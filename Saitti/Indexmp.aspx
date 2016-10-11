@@ -1,14 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/MasterPage.master" CodeFile="Indexmp.aspx.cs" Inherits="Index" %>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <title>IIO13200 .NET Ohjelmointi</title>
     <link href="CSS/demo.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <form id="form1" runat="server">
+    </asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body" Runat="Server">
+
         <div>
             <h1>IIO13200. NET Ohjelmointi</h1>
             <h2>1.kontaktikerta</h2>
@@ -28,6 +26,4 @@
 
             </p>
         </div>
-    </form>
-</body>
-</html>
+</asp:Content>
